@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>迷笛音乐节</title>
+<meta http-equiv="Cache-Control" content="max-age=3600">
+<meta name="MobileOptimized" content="240">
+<meta name="apple-touch-fullscreen" content="YES">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.0,  minimum-scale=1.0, maximum-scale=1.0">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Index/css/common.css">
+<script type="text/javascript" src="__PUBLIC__/Index/js/jquery.js"></script>
+<script>
+$(function(){
+	//tabs切换
+	$('.tabs').each(function(){
+		var _self = $(this);
+		var _btn = $('ul.user_tabs_btn3>li', _self);
+		var _div = $('.user_tabs_body>div',_self);
+		_btn.on('click',function(){
+			var _ind = _btn.index(this);
+			$(this).addClass('now').siblings('li').removeClass('now');
+			_div.eq(_ind).removeClass('none').siblings('div').addClass('none');
+			return false;
+		})
+	});
+	
+})
+
+</script>
+</head>
+<body>
+
+<div class="content">
+	<div class="jdtp">
+    	<div class="jdtpbox2">
+            <div class="user_info_right tabs">
+            		<div class="tabs_body user_tabs_body">
+                        <div class="clearfix">
+                         	<img src="__PUBLIC__/Index/images/427_1.jpg"/>
+                        </div>
+                        <div class="clearfix none">
+                            <img src="__PUBLIC__/Index/images/427_2.jpg"/>
+                        </div>
+                        <div class="clearfix none">
+                             <img src="__PUBLIC__/Index/images/427_3.jpg"/>
+                        </div>
+                        <div class="clearfix none">
+                             <img src="__PUBLIC__/Index/images/427_4.jpg"/>
+                        </div>
+                        <div class="clearfix none">
+                            <img src="__PUBLIC__/Index/images/427_5.jpg"/>
+                        </div>
+                        <div class="clearfix none">
+                            <img src="__PUBLIC__/Index/images/427_6.jpg"/>
+                        </div>
+                        <div class="clearfix none">
+                            <img src="__PUBLIC__/Index/images/427_7.jpg"/>
+                        </div>
+                        <div class="clearfix none">
+                            <img src="__PUBLIC__/Index/images/427_8.jpg"/>
+                        </div>
+                    </div>
+                    <div class="clear10"></div>
+                    <ul class="tabs_btn clearfix user_tabs_btn3">
+                        <li class="now"><a href="javascript:;" class="a1"></a></li>
+                        <li><a href="javascript:;" class="a2"></a></li>
+                        <li><a href="javascript:;" class="a3"></a></li>
+                        <li><a href="javascript:;" class="a4"></a></li>
+                        <li><a href="javascript:;" class="a5"></a></li>
+                        <li><a href="javascript:;" class="a6"></a></li>
+                        <li><a href="javascript:;" class="a7"></a></li>
+                        <li><a href="javascript:;" class="a8"></a></li>
+                    </ul>
+                    <div class="clear10"></div>
+                </div><!--tab end-->
+        </div>
+    </div>
+    
+</div>
+</body>
+</html>
