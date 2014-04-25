@@ -40,7 +40,7 @@ body{font-family:"mircrosoft yahei","微软雅黑",Tahoma, Verdana, Arial, Genev
 	.homeimg img{ width:100%;}
 	
 		
-	.jdtp{ width:100%; height: auto; background:url(../images/jdtp.jpg) no-repeat;background-size:100% auto; -moz-background-size:100% auto;}
+	.jdtp{ width:100%; height: auto; background:url(../images/jdtp.jpg) no-repeat;background-size:115% auto; -moz-background-size:100% auto;}
 		.jdtpbox{ width:86%; margin:0 auto;}
 		.jdtpbox a img{ width:100%; border:0; vertical-align:bottom}
 		.jdtpbox img{ width:100%; border:0;}
