@@ -23,6 +23,7 @@ return array(
     'UPLOAD_PATH' => './Upload', //文件上传地址
     'TMPL_PARSE_STRING'  =>array(
         '__UPLOAD__' => __ROOT__ . '/Upload',
+        '__PUBLIC__' => 'http://www.jiacarclub.com/aoxiang_coffee/midi',
     ),
 
 );
