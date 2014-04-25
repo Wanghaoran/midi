@@ -34,11 +34,11 @@ body{font-family:"mircrosoft yahei","微软雅黑",Tahoma, Verdana, Arial, Genev
 .content{min-width:320px;width:100%;}
 	.homeimg{ position:relative;}
 	.homeimg a{ display:inline-block; text-decoration:none; border:0; position:absolute;}
-	.homeimg a.home_left{ left:0; width:35%; height:75%}
-	.homeimg a.home_right{ right:0; width:35%; height:75%}
-	.homeimg a.home_bottom{ bottom:0; width:100%; height:25%}
+	.homeimg a.home_left{ left:0; width:33%; height:100%}
+	.homeimg a.home_right{ right:0; width:33%; height:100%}
+	.homeimg a.home_bottom{ bottom:0; width:32%; height:12%; margin-left: 35%}
 	.homeimg img{ width:100%;}
-	
+
 		
 	.jdtp{ width:100%; height: auto; background:url(../images/jdtp.jpg) no-repeat;background-size:100% auto; -moz-background-size:100% auto;}
 		.jdtpbox{ width:86%; margin:0 auto;}
