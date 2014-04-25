@@ -52,7 +52,7 @@ body{font-family:"mircrosoft yahei","微软雅黑",Tahoma, Verdana, Arial, Genev
 	.wlpt{ position:relative;}
 	.wlpt a{ display:inline-block; text-decoration:none; border:0; position:absolute;}
 	a.icon_home{ right:0; top:8%; width:51px; height:60px; background:url(../images/icon_home.png) no-repeat; z-index:9999;}
-	a.icon_draw{ bottom:3%; width:22px; height:27px; background:url(../images/icon_draw.png) no-repeat; left:50%; margin-left:-11px; z-index:9999;}
+	a.icon_draw{ bottom:3px; width:22px; height:27px; background:url(../images/icon_draw.png) no-repeat; left:50%; margin-left:-11px; z-index:9999;}
 	.wlpt img{ width:100%;  vertical-align:bottom;}
 	
 	.nywlpt{width:100%; height: auto; background:url(../images/jdtp.jpg) no-repeat;background-size:150% auto; -moz-background-size:150% auto; position:relative;}
