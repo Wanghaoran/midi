@@ -48,11 +48,11 @@ body{font-family:"mircrosoft yahei","微软雅黑",Tahoma, Verdana, Arial, Genev
 		.jdtpbox2{ width:96%; margin:0 auto;}
 		.jdtpbox2 a img{ width:100%; border:0; vertical-align:bottom}
 	
-	.wlpt{ width:100%;}
+	.wlpt{ width:100%; padding-bottom:40px;}
 	.wlpt{ position:relative;}
 	.wlpt a{ display:inline-block; text-decoration:none; border:0; position:absolute;}
-	a.icon_home{ left:0; bottom:3px; width:67px; height:56px; background:url(../images/icon_home.png) no-repeat; z-index:9999;}
-	a.icon_draw{ right:0; bottom:3px; width:196px; height:56px; background:url(../images/icon_draw.png) no-repeat; z-index:9999;}
+	a.icon_home{ left:0; bottom:3px; width:36px; height:30px; background:url(../images/icon_home.png) no-repeat; background-size:36px 30px; -moz-background-size:36px 30px; z-index:9999;}
+	a.icon_draw{ right:0; bottom:3px; width:105px; height:30px; background:url(../images/icon_draw.png) no-repeat; background-size:105px 30px; -moz-background-size:105px 30px; z-index:9999;}
 	.wlpt img{ width:100%;  vertical-align:bottom;}
 	
 	.nywlpt{width:100%; height: auto; background:url(../images/jdtp.jpg) no-repeat;background-size:150% auto; -moz-background-size:150% auto; position:relative;}
